@@ -1,0 +1,32 @@
+{
+  "name": "game-tactic-planer",
+  "description": "Real-time planning application for online games.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Steffen Hollstein",
+    "email": "dev@steffenhollstein.de"
+  },
+  "engines": {
+    "node": "9.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.x",
+    "socket.io": "2.x"
+  },
+  "devDependencies": {
+    "eslint": "~5.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/steffenhollstein/nodejs.gametacticplaner.git"
+  },
+  "keywords": [
+    "game",
+    "tactic",
+    "planer"
+  ],
+  "license": "UNLICENSED"
+}
